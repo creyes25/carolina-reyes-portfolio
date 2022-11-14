@@ -1,14 +1,21 @@
 import projects from "../../data/project"
+import {useParams} from 'react-router-dom'
+import findProject from "../../utilities/findProject"
+
 function ProjectDetails() {
+  const {projectDetails} = useParams()
+
+  const foundProject = findProject(projectDetails)
+
   return (
     <>
-      <h1>{projects[0].title}</h1>
-      <p>{projects[0].description}</p>
-      <img src={projects[0].image} alt={projects[0].title} />
-      <a href={projects[0].repositoryLink}>
+      <h1>{foundProject.title}</h1>
+      <p>{foundProject.description}</p>
+      <img src={foundProject.image} alt={foundProject.title} />
+      <a href={foundProject.repositoryLink}>
         <button>View code</button>
       </a>
-      <a href={projects[0].deploymentLink}>
+      <a href={foundProject.deploymentLink}>
         <button>View Deployed App</button>
       </a>
     </>
