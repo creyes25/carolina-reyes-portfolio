@@ -1,6 +1,5 @@
 nav {
-  /* border: 1px solid red; */
-  background-color: rgba(134, 64, 183, 0.496);
+  background-color: rgba(134, 64, 183, 0.295);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,24 +9,29 @@ nav {
 }
 
 nav > ul {
-  border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 15px;
-  /* width: %; */
   list-style: none;
   margin-right: 20px;
   font-size: 16px;
 }
+.navlinks > li > a {
+  text-decoration: none;
+  color: black
+}
 
 .name {
-  border: 1px solid purple;
   display: flex;
   justify-content: center;
   margin-left: 20px;
   font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
+
+
 
 @media (max-width: 450px) {
   nav{

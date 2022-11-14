@@ -8,7 +8,7 @@ function NavBar() {
         <Link to='/' className={styles.name}>
           Carolina Reyes
         </Link>
-        <ul>
+        <ul className={styles.navlinks}>
           <li>
             <Link to='/about'>About</Link>
           </li>
