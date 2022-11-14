@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
+import styles from './NavBar.module.css'
 
 function NavBar() {
   return (
     <>
       <nav>
-        <Link to='/'>
+        <Link to='/' className={styles.name}>
           Carolina Reyes
         </Link>
         <ul>
