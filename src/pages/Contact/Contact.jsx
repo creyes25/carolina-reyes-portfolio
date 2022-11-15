@@ -1,3 +1,5 @@
+import styles from './Contact.module.css'
+
 function Contact() {
   return (
     <main>
@@ -9,7 +11,7 @@ function Contact() {
       </div>
       <div>
         <p>Reach out!</p>
-        <ul>
+        <ul className={styles.contactList}>
           <li><a href="https://www.linkedin.com/in/carolinareyes25/">LinkedIn</a></li>
           <li><a href="https://github.com/creyes25">GitHub</a></li>
         </ul>
