@@ -5,11 +5,11 @@ function NavBar() {
   return (
     <>
       <nav>
-        <div>
-        <Link to='/' className={styles.name}>
-          {/* <img src="./images/logo1.png" alt="logo" /> */}
-          Carolina Reyes
-        </Link>
+        <div className={styles.logoContainer}>
+            <img src="../images/logo1.png" alt="logo" />
+          <Link to='/' className={styles.name}>
+            Carolina Reyes
+          </Link>
         </div>
         <ul className={styles.navlinks}>
           <li>

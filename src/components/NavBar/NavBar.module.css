@@ -12,6 +12,18 @@ nav {
 	top: 0;
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.logoContainer > img {
+  width: 50px;
+}
+
+
 nav > ul {
   display: flex;
   flex-wrap: wrap;
