@@ -1,0 +1,18 @@
+.about_pic {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.about_pic > img {
+  /* border: solid purple; */
+  max-width:230px;
+  height: auto;
+}
+
+.about_desc {
+  border: solid red;
+  width:50%;
+  margin: auto;
+}

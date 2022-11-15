@@ -1,0 +1,12 @@
+.pic_container {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.pic_container > img {
+  /* border: solid purple; */
+  max-width:230px;
+  height: auto;
+}

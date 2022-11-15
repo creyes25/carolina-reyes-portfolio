@@ -1,3 +1,5 @@
+import styles from './Home.module.css'
+
 function Home() {
   return (
     <main>
@@ -5,8 +7,8 @@ function Home() {
         <h1>Carolina Reyes</h1>
         <h2>Software Engineer</h2>
       </div>
-      <div>
-        <img src="" alt="Myself" />
+      <div className={styles.pic_container}>
+        <img src="./images/myself.jpg" alt="profile" />
       </div>
     </main>
   )
