@@ -6,8 +6,8 @@ function NavBar() {
     <>
       <nav>
         <div className={styles.logoContainer}>
-            <img src="../images/logo1.png" alt="logo" />
           <Link to='/' className={styles.name}>
+            <img src="../images/logo1.png" alt="logo" />
             Carolina Reyes
           </Link>
         </div>
