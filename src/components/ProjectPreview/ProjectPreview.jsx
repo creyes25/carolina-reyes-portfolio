@@ -6,9 +6,8 @@ function ProjectPreview({project}) {
   let path = hyphenateWords(project.title)
   return (
     <>
-      
       <div className={styles.card}>
-        <img src={project.image} alt={project.title} />
+        <img src={project.image} alt={project.title} className={styles.project_image} />
         <section>
           <h3>{project.title}</h3>
           <Link to={path}>
