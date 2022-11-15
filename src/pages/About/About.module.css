@@ -9,10 +9,12 @@
   /* border: solid purple; */
   max-width:230px;
   height: auto;
+  border-radius: 50px;
 }
 
 .about_desc {
-  border: solid red;
+  /* border: solid red; */
   width:50%;
-  margin: auto;
+  margin: 30px auto;
+  text-align: left;
 }

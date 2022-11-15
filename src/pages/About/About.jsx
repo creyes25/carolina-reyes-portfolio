@@ -2,7 +2,7 @@ import styles from './About.module.css'
 function About() {
   return ( 
     <main>
-      <h1>About</h1>
+      <h1 className={styles.title}>About</h1>
       <div className={styles.about_pic}>
         <img src="./images/myself.jpg" alt="myself" />
       </div> 
