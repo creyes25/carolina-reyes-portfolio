@@ -5,9 +5,12 @@ function NavBar() {
   return (
     <>
       <nav>
+        <div>
         <Link to='/' className={styles.name}>
+          {/* <img src="./images/logo1.png" alt="logo" /> */}
           Carolina Reyes
         </Link>
+        </div>
         <ul className={styles.navlinks}>
           <li>
             <Link to='/about'>About</Link>
