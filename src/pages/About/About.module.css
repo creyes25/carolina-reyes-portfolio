@@ -6,9 +6,9 @@
 }
 
 .about_pic > img {
-  /* border: solid purple; */
+  border: 3px solid #785469;
   max-width:230px;
-  height: auto;
+  height: 250px;
   border-radius: 50px;
 }
 
