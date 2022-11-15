@@ -1,0 +1,19 @@
+.project {
+  max-width: 50%;
+  margin: 10px auto;
+}
+
+.project > p {
+  text-align: left;
+}
+
+.projectDetails {
+  width: 300px;
+  margin: 20px;
+}
+
+.detailsBtns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
