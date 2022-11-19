@@ -1,11 +1,12 @@
+import styles from './Resume.module.css'
+
 function Resume() {
   return (
-    <main>
+    <main className={styles.resume}>
       <h1>Resume</h1>
-      <div>
-        <p>
-          Download my <a href="/resume/carolina-reyes-resume2.pdf" download>resume</a>.
-        </p>
+      <p>Click icon to download my resume </p>
+      <div className={styles.resume_icon}>
+        <a href="/resume/carolina-reyes-resume2.pdf" download><img src="../images/resume-icon.png" alt="" /></a>
       </div>
     </main>
   )

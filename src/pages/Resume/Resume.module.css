@@ -1,0 +1,18 @@
+.resume {
+
+}
+
+.resume > h1 {
+  color:  hsl(239deg 40% 20%);
+  margin-top: 10vh;
+}
+
+.resume_icon {
+  margin: 0px auto;
+  width: 100vh;
+}
+
+.resume_icon > a > img {
+  width: 50%;
+  height: 50%;
+}

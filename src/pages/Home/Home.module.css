@@ -1,3 +1,7 @@
+.home {
+  margin-top: 10vh;
+}
+
 .pic_container {
   display: flex;
   justify-content: center;
@@ -13,10 +17,10 @@
 }
 
 .title > h1 {
-  color: #37373E;
+  color: hsl(239deg 40% 20%);
 }
 
 .title > h2 {
-  color: #454655;
+  color: rgb(61, 61, 111);
 }
 

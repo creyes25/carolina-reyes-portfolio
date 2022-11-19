@@ -1,3 +1,17 @@
 body {
   text-align: center;
+  background-color: #d9d9eb;
+}
+
+button {
+  border: solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: background-color 1s ease-out 100ms
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(239deg 29% 54%);
+  color: white;
 }

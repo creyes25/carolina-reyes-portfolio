@@ -1,19 +1,23 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import styles from './Contact.module.css'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Contact() {
   return (
-    <main>
-      <div>
+    <main className={styles.contact}>
+      <div className={styles.contact_info}>
         <h1>Contact</h1>
         <p>
-          If you'd like collaborate on an interesting project or just chat code, feel free to hit me up via <a href="mailto:carolina.reyes2022@gmail.com">email</a>.
+          Say hello, I'd love to hear from you! If you have any questions or would like to collaborate, email me or conect with me in LinkedIn and Github.
         </p>
       </div>
       <div>
         <p>Reach out!</p>
         <ul className={styles.contactList}>
-          <li><a href="https://www.linkedin.com/in/carolinareyes25/">LinkedIn</a></li>
-          <li><a href="https://github.com/creyes25">GitHub</a></li>
+          <li><a href="mailto:carolina.reyes2022@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a></li>
+          <li><a href="https://www.linkedin.com/in/carolinareyes25/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+          <li><a href="https://github.com/creyes25"><FontAwesomeIcon icon={faGithub}/></a></li>
         </ul>
       </div>
     </main>
