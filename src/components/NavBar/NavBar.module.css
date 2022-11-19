@@ -27,6 +27,10 @@ nav {
   color: #37373E ;
 }
 
+.name:hover {
+  color: hsl(238deg 34% 38%)
+}
+
 .name > img {
   width: 50px;
   margin-right: 10px;
@@ -46,6 +50,10 @@ nav > ul {
 .navlinks > li > a {
   text-decoration: none;
   color: #37373E
+}
+
+.navlinks > li > a:hover {
+  color: hsl(238deg 34% 38%)
 }
 
 
