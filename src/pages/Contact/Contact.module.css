@@ -33,9 +33,14 @@
   color: purple
 }
 
-@media (max-width: 450px) {
+@media (max-width: 870px) {
+  .contact_info {
+    margin: 0 auto;
+    width: 100%;
+  }
   .contact_info > p {
-    width: auto;
+    margin: 0 auto;
+    width: 75%;
   }
   
 }

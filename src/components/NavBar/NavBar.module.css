@@ -58,10 +58,11 @@ nav > ul {
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 570px) {
   nav{
     background-color: #e9e9f2;
     width: 100%;
+    justify-content: center;
   }
   .name {
     display: none;
