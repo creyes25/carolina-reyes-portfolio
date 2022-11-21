@@ -60,7 +60,11 @@ nav > ul {
 
 @media (max-width: 450px) {
   nav{
-    background-color: rgba(134, 64, 183, 0.862);
+    background-color: #e9e9f2;
     width: 100%;
   }
+  .name {
+    display: none;
+  }
+  
 }
