@@ -9,7 +9,7 @@ function Contact() {
       <div className={styles.contact_info}>
         <h1>Contact</h1>
         <p>
-          Say hello, I'd love to hear from you! If you have any questions or would like to collaborate, email me or conect with me in LinkedIn and Github.
+          Say hello, I'd love to hear from you! If you have any questions or would like to collaborate, email me or connect with me via LinkedIn and Github.
         </p>
       </div>
       <div>
