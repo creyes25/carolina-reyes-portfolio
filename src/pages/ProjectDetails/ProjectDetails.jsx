@@ -27,7 +27,19 @@ function ProjectDetails() {
         alt={foundProject.title} 
         className={styles.projectImage}
       />
+      <div className={styles.technologies}>
+        {foundProject.technologies.map(tech => 
+          <div key={tech} className={styles.tech}>
+              <img 
+                src={`../images/technologies/${tech}.png`} 
+                alt={tech} />
+            <h4>{tech}</h4>
+
+            </div>
+        )}
+      </div>
     </div>
+
 
     </>
   )
