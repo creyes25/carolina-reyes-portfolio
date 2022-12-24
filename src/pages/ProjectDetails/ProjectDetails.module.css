@@ -1,6 +1,14 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .project {
   max-width: 50%;
-  margin: 30px auto;
+  margin: 30px 0px 0px;
 }
 
 .project > p {
@@ -8,20 +16,20 @@
   margin-top: 38px
 }
 
-.projectDetails {
+.projectImage {
   width: 45%;
-  margin: 35px;
+  margin: 38px;
 }
 
 .detailsBtns {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 @media (max-width: 600px) {
-  .projectDetails {
+  .projectImage {
     width: 80%;
     margin: 30px;
   }
@@ -29,5 +37,4 @@
   .project > p {
     text-align: center;
   }
-  
 }

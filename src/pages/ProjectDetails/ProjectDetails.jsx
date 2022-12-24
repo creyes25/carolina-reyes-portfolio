@@ -9,6 +9,7 @@ function ProjectDetails() {
 
   return (
     <>
+    <div className={styles.details}>
       <div className={styles.project}>
         <h1>{foundProject.title}</h1>
         <p>{foundProject.description}</p>
@@ -24,8 +25,9 @@ function ProjectDetails() {
       <img 
         src={foundProject.image} 
         alt={foundProject.title} 
-        className={styles.projectDetails}
+        className={styles.projectImage}
       />
+    </div>
 
     </>
   )
