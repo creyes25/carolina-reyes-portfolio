@@ -1,19 +1,33 @@
 .project {
   max-width: 50%;
-  margin: 10px auto;
+  margin: 30px auto;
 }
 
 .project > p {
   text-align: left;
+  margin-top: 38px
 }
 
 .projectDetails {
-  width: 300px;
-  margin: 20px;
+  width: 45%;
+  margin: 35px;
 }
 
 .detailsBtns {
   display: flex;
   justify-content: center;
   gap: 15px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .projectDetails {
+    width: 80%;
+    margin: 30px;
+  }
+
+  .project > p {
+    text-align: center;
+  }
+  
 }
