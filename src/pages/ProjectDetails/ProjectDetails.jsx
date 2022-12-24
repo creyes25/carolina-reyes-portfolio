@@ -13,11 +13,6 @@ function ProjectDetails() {
         <h1>{foundProject.title}</h1>
         <p>{foundProject.description}</p>
       </div>
-      <img 
-        src={foundProject.image} 
-        alt={foundProject.title} 
-        className={styles.projectDetails}
-      />
       <div className={styles.detailsBtns}>
         <a href={foundProject.repositoryLink}>
           <button>View code</button>
@@ -26,6 +21,12 @@ function ProjectDetails() {
           <button>View Deployed App</button>
         </a>
       </div>
+      <img 
+        src={foundProject.image} 
+        alt={foundProject.title} 
+        className={styles.projectDetails}
+      />
+
     </>
   )
 }
