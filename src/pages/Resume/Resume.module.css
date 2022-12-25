@@ -1,3 +1,12 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+
 
 .resume > h1 {
   color:  hsl(239deg 40% 20%);
@@ -6,7 +15,6 @@
 
 .resume_icon {
   margin: 0px auto;
-  width: 100vh;
 }
 
 .resume_icon > a > img {
