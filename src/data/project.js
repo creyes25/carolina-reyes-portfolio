@@ -21,7 +21,7 @@ const projects = [
     description: "A simple Django / Python app that help users collect birds and track their feedings.",
     image: "../images/projects/bird-collector.png",
     repositoryLink: "https://github.com/creyes25/bird-collector",
-    deploymentLink: "https://bird-collector-django.herokuapp.com/",
+    deploymentLink: "https://bird-collector-django.up.railway.app/",
     technologies : ["HTML", "CSS", "Django", "Python", "PostgreSQL", "Docker"],
 
   },
