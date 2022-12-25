@@ -6,22 +6,63 @@
   color: hsl(239deg 40% 20%);
 }
 
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+
+}
+
 .about_pic {
-  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-content: center;
+  padding: 30px;
 }
 
 .about_pic > img {
   border: 3px solid #785469;
-  max-width:230px;
-  height: 250px;
+  width:320px;
+  height: 460px;
   border-radius: 50px;
 }
 
 .about_desc {
-  width:50%;
-  margin: 30px auto;
-  text-align: left;
+  width:90%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.about_desc > p {
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+
+}
+
+@media (max-width: 900px) {
+  .aboutContainer {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .about_desc {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .aboutContainer > .about_desc > p {
+    width: 80%;
+    padding: 0px;
+    margin: 0px auto;
+  }
+  .about_pic > img {
+    width:175px;
+    height: 230px;
+  }
 }
