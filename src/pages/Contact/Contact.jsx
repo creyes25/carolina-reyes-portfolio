@@ -16,8 +16,8 @@ function Contact() {
         <p>Reach out!</p>
         <ul className={styles.contactList}>
           <li><a href="mailto:carolina.reyes2022@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a></li>
-          <li><a href="https://www.linkedin.com/in/carolinareyes25/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-          <li><a href="https://github.com/creyes25"><FontAwesomeIcon icon={faGithub}/></a></li>
+          <li><a href="https://www.linkedin.com/in/carolinareyes25/" target='_blank' rel="noreferrer" ><FontAwesomeIcon icon={faLinkedin} /></a></li>
+          <li><a href="https://github.com/creyes25" target='_blank' rel='noreferrer' ><FontAwesomeIcon icon={faGithub}/></a></li>
         </ul>
       </div>
     </main>
