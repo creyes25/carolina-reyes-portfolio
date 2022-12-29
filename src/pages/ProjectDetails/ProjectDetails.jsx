@@ -15,10 +15,10 @@ function ProjectDetails() {
         <p>{foundProject.description}</p>
       </div>
       <div className={styles.detailsBtns}>
-        <a href={foundProject.repositoryLink}>
+        <a href={foundProject.repositoryLink} target='_blank' rel='noreferrer'>
           <button>View code</button>
         </a>
-        <a href={foundProject.deploymentLink}>
+        <a href={foundProject.deploymentLink} target='_blank' rel='noreferrer'>
           <button>View Deployed App</button>
         </a>
       </div>
