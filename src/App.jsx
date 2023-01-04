@@ -4,6 +4,7 @@ import './App.css';
 
 // page components
 import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div>
+      <div id='main'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
@@ -29,6 +30,7 @@ function App() {
           />
         </Routes>
       </div>
+      <Footer />
     
     </>
   );
